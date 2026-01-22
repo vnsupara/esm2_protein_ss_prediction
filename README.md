@@ -17,12 +17,26 @@ The workflow includes:
 
 ---
 
+
+---
+
 ## Data Availability
-The dataset used in this project was provided as part of a university course and is not publicly available.  
-To run the code, place the following files in the `data/` directory:
+
+The original dataset used in this project was provided as part of a university course and is **not publicly available**.
+
+To make the repository runnable, a small synthetic dataset is included:
+
+- `example_sequences.fasta`
+- `example_train.tsv`
+- `example_test.tsv`
+
+These files demonstrate the expected format and allow the code to run end‑to‑end.
+
+To use your own data, place the following files in the `data/` directory:
 
 - `train.tsv`
 - `test.tsv`
 - `sequences.fasta`
 
-These files are not included in the repository.
+---
+
