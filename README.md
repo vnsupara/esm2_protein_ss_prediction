@@ -17,4 +17,12 @@ The workflow includes:
 
 ---
 
-## Project Structure
+## Data Availability
+The dataset used in this project was provided as part of a university course and is not publicly available.  
+To run the code, place the following files in the `data/` directory:
+
+- `train.tsv`
+- `test.tsv`
+- `sequences.fasta`
+
+These files are not included in the repository.
