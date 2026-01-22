@@ -1,0 +1,13 @@
+torch>=2.0.0
+torchvision
+torchaudio
+transformers>=4.30.0
+biopython
+tqdm
+pandas
+numpy
+accelerate
+datasets
+fair-esm
+seqio
+scikit-learn
