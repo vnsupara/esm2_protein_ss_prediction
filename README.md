@@ -54,5 +54,11 @@ pip install -r requirements.txt
 4. Predict:
    `python src/predict.py --test data/test.tsv --emb embeddings --checkpoint checkpoints/model_checkpoint.pt --out prediction.csv`
 
+---
+
+## Results
+
+After training for 2 epochs with the default settings in this repository, the BiLSTM classifier reached approximately 70% per‑residue accuracy. This result was obtained using the original dataset; performance on synthetic datasets my differ. Results can vary with random seed, hardware, and hyperparameters.
+
 
 
